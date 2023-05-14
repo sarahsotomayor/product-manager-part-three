@@ -16,11 +16,11 @@ const ProductForm = () => {
             description
         })
 
-        .then(res => {
-            console.log(res);  //always console log to track
-            console.log(res.data);
-        })
-        .catch(error => console.log(error))
+            .then(res => {
+                console.log(res);  //always console log to track data
+                console.log(res.data);
+            })
+                .catch(error => console.log(error))
     }
 
 
@@ -39,7 +39,7 @@ const ProductForm = () => {
                 <label>Description</label>
                 <input type="text" onChange={(e) => setDescription(e.target.value)}/>
             </div>
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="Create"/>
         </form>
     )
 }

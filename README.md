@@ -19,8 +19,9 @@
 # Issues
 
 **MongoDB**
+
 MongoDB ran in background but server was not connecting to MongoDB. Used the following command to connect:
 
-'sudo brew services start mongodb-community@5.0'
+`sudo brew services start mongodb-community@5.0`
 
 Terminal and MongoDB Compass verified it did connect. 
