@@ -1,6 +1,7 @@
-## JavaScript Full Stack Bootcamp - Assignment #2 - Week 6
+## JavaScript Full Stack Bootcamp - Assignment #3 - Week 6
 
-* Added READ function with getAllProducts and findOne to show a details page in the view component, Detail.js.
+* Complete CRUD project
+* Added styling
 
 # Full Stack MERN Product Manager Part Two
 
@@ -13,3 +14,4 @@
 * Backend: Mongoose and Express
 * Frontend: React
 * Verified backend is working with Postman and MongoDB Compass. 
+* Styling: Bootstrap

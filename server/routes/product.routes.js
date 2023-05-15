@@ -6,4 +6,7 @@ module.exports = (app) => {
     app.get('/api/product', ProductController.getAllProducts); 
         //above get route can be the same route as POST as long as we have a different http verb
     app.get('/api/product/:id', ProductController.getProduct);
+    app.patch('/api/product/:id', ProductController.updateProduct);
+    app.delete('/api/product/:id', ProductController.deleteProduct);
+        //in above delete, "id" MUST match params in controller
 }

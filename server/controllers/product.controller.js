@@ -34,3 +34,18 @@ module.exports.getProduct = (request, response) => {
         .then(product => response.json(product))
         .catch(error => console.log(error))
 }
+
+//UPDATE
+module.exports.updateProduct = (request, response) => {
+    Product.findOneAndUpdate({_id:request.params.id}, request.body, {new:true})
+        //above third parameter of new:true is to return the updated document 
+        .then(updatedProduct => response.json(updatedProduct))
+        .catch(error => console.log(error))
+}
+
+//DELETE
+module.exports.deleteProduct = (request, response) => {
+    Product.deleteOne({_id:request.params.id})
+        .then(deleteConfirmation => response.json(deleteConfirmation))
+        .catch(error => console.log(error))
+}
