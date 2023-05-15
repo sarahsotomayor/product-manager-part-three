@@ -9,4 +9,3 @@
 * Backend: Mongoose and Express
 * Frontend: React
 * Verified backend is working with Postman and MongoDB Compass. 
-* Styling: Bootstrap
