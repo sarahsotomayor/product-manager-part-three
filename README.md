@@ -1,7 +1,6 @@
 ## JavaScript Full Stack Bootcamp - Assignment #3 - Week 6
 
 * Complete CRUD project
-* Added styling
 
 # Full Stack MERN Product Manager Part Two
 
