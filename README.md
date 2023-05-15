@@ -1,10 +1,6 @@
 ## JavaScript Full Stack Bootcamp - Assignment #3 - Week 6
 
-* Complete CRUD project
-
-# Full Stack MERN Product Manager Part Two
-
-* Reading data from database using getAllProducts
+* Complete CRUD project for Product Manager Part Three
 
 # Project Details
 
