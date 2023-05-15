@@ -1,12 +1,10 @@
-## JavaScript Full Stack Bootcamp - Assignment #1 - Week 6
+## JavaScript Full Stack Bootcamp - Assignment #2 - Week 6
 
+* Added READ function with getAllProducts and findOne to show a details page in the view component, Detail.js.
 
+# Full Stack MERN Product Manager Part Two
 
-
-
-# Full Stack MERN Product Manager Part One
-
-* Form creates products and adds them in the database
+* Reading data from database using getAllProducts
 
 # Project Details
 
@@ -15,13 +13,3 @@
 * Backend: Mongoose and Express
 * Frontend: React
 * Verified backend is working with Postman and MongoDB Compass. 
-
-# Issues
-
-**MongoDB**
-
-MongoDB ran in background but server was not connecting to MongoDB. Used the following command to connect:
-
-`sudo brew services start mongodb-community@5.0`
-
-Terminal and MongoDB Compass verified it did connect. 
